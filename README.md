@@ -16,7 +16,7 @@ deployment pipeline.
 
 ## Example
 
-Save the webhook url using Github Secret.
+Save the webhook URL using GitHub Secret.
 
 ```yaml
 steps:
