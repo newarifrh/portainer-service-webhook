@@ -1,6 +1,9 @@
 name: "Portainer Service Webhook"
 description: "Update portainer service via Webhook"
 author: "Arif Rahman Hakim"
+branding:
+  icon: "arrow-up-circle"
+  color: "blue"
 
 # Define your inputs here.
 inputs:
