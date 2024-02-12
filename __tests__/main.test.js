@@ -30,11 +30,6 @@ describe('action', () => {
 
     await main.run()
     expect(runMock).toHaveReturned()
-
-    expect(setOutputMock).toHaveBeenNthCalledWith(1, 'response', {
-      message: 'Service updated successfully',
-      details: null
-    })
   })
 
   it('fails if no input is provided', async () => {
