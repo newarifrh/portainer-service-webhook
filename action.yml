@@ -1,18 +1,17 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: "Portainer Service Webhook"
+description: "Update portainer service via Webhook"
+author: "Arif Rahman Hakim"
 
 # Define your inputs here.
 inputs:
-  milliseconds:
-    description: 'Your input description here'
+  webhook_url:
+    description: "Put service webhook url in here (example: http://example.com:9000/api/webhooks/dab4a378-57d0-4fef-a93a-6f5de18a5083)"
     required: true
-    default: '1000'
 
 # Define your outputs here.
 outputs:
-  time:
-    description: 'Your output description here'
+  response:
+    description: "Response service webhook"
 
 runs:
   using: node20
