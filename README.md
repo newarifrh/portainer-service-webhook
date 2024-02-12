@@ -10,9 +10,9 @@ deployment pipeline.
 
 ## Action Inputs
 
-| Input       | Description                                                                                    | Default  |
-| ----------- | ---------------------------------------------------------------------------------------------- | -------- |
-| webhook_url | Service Webhook URL, eg. `https://portainer/api/webhooks/00000000-0000-0000-0000-000000000000` | Required |
+| Input       | Description         | Default  |
+| ----------- | ------------------- | -------- |
+| webhook_url | Service Webhook URL | Required |
 
 ## Example
 
